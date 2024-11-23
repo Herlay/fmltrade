@@ -1,0 +1,71 @@
+.payment-terms {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(27, 163, 61);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    text-align: center;
+    color: rgb(27, 163, 61);
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .terms-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .term-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .term-card.active {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-left: 4px solid rgb(27, 163, 61);
+  }
+  
+  .term-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .term-icon {
+    font-size: 35px;
+  }
+  
+  .term-header h3 {
+    font-size: 18px;
+    margin: 0;
+    color: black;
+  }
+  .term-description {
+    margin-top: 10px;
+    color: black;
+    font-size:18px;
+  }
+  
+  .term-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
