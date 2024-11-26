@@ -57,15 +57,16 @@ body {
   @media (max-width: 768px) {
     .about-us-content {
       flex-direction: column;
-      text-align: center;
     }
+
   
     .about-us-logo img {
-      max-width: 600px;
+      max-width: 100%;
     }
   
     .about-us-text h1 {
       font-size: 25px;
+      width: 100%;
     }
 
     img.aboutImg 
