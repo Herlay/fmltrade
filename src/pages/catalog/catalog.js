@@ -26,6 +26,8 @@ import pic24 from "../../assets/crops/corn.jpg"
 import pic25 from "../../assets/crops/peanut.jpg"
 import pic26 from "../../assets/crops/flour.jpg"
 import pic27 from "../../assets/crops/gum.jpg"
+import pic28 from "../../assets/crops/stone.jpg"
+import pic29 from "../../assets/crops/rails.jpg"
 
 import pic13 from "../../assets/crops/rice.jpg"
 import pic14 from "../../assets/crops/oil.jpeg"
@@ -206,6 +208,16 @@ const Catalog = () => {
           <div className="product" data-name="p-27">
           <img src={pic27} alt="img"/>
           <h3>ARABIC GUM</h3>
+          </div>
+
+          <div className="product" data-name="p-28">
+          <img src={pic28} alt="img"/>
+          <h3>STONE FLOWER</h3>
+          </div>
+
+          <div className="product" data-name="p-29">
+          <img src={pic29} alt="img"/>
+          <h3>USED RAILS (Scrap)</h3>
           </div>
       </div>
 
@@ -987,6 +999,76 @@ const Catalog = () => {
           </div>
         </div>
 
+       <div className="preview" data-target="p-28">
+        <FaTimes className="close-icon" size={40} />
+          <img src={pic28} alt="img"/>
+          <h3>SPECIFICATIONS FOR STONE FLOWER (Parmotrema Perlatum)</h3>
+          <div className="stars">
+            <i className="fas fa-star-half-alt">Origin: West Africa</i>
+            <i className="fas fa-star-half-alt">Loading Port: West Africa</i>
+            <i className="fas fa-star-half-alt">Quantity: 5,000 Metric Tons (MT)</i>
+            <i className="fas fa-star-half-alt">Payment Terms: Cash or Bank Instrument</i>
+            <i className="fas fa-star-half-alt"><b>Specifications:</b></i>
+            <i className="fas fa-star-half-alt">•	Type: Dried Stone Flower (Parmotrema Perlatum)</i>
+            <i className="fas fa-star-half-alt">•	Appearance: Dark greyish-black with a leathery texture</i>
+            <i className="fas fa-star-half-alt">•	Moisture Content: Max 12%</i>
+            <i className="fas fa-star-half-alt">•	Purity: Min 98% (free from foreign materials such as dirt, stones, and dust)</i>
+            <i className="fas fa-star-half-alt">• Odor and Taste: Earthy, with a mild, unique aroma</i>
+            <i className="fas fa-star-half-alt">• Size: Whole pieces or as specified by buyer</i>
+            <i className="fas fa-star-half-alt"><b>Packaging:</b></i>
+            <i className="fas fa-star-half-alt">•	25 kg or 50 kg bags, packed in moisture-proof bags as specified by buyer</i>
+            <i className="fas fa-star-half-alt">•	Bulk packaging or smaller packaging as per buyer’s requirements</i>
+            <i className="fas fa-star-half-alt">Delivery Terms: CIF/FOB as per contract</i>
+            <i className="fas fa-star-half-alt">Shelf Life: 12–18 months if stored in a cool, dry place away from direct sunlight</i>
+            <i className="fas fa-star-half-alt">Certifications: Available upon request (e.g., SGS or other third-party inspections)</i>
+            <i className="fas fa-star-half-alt">Other Conditions: As per contract negotiation.</i>
+
+           
+           
+          
+           </div>
+          <div className="button">
+            <a href="#" className="cart">add to cart</a>
+          </div>
+        </div>
+
+        
+       <div className="preview" data-target="p-29">
+        <FaTimes className="close-icon" size={40} />
+          <img src={pic29} alt="img"/>
+          <h3>SPECIFICATIONS FOR USED RAILS (Scrap)</h3>
+          <div className="stars">
+            <i className="fas fa-star-half-alt">Origin: West Africa</i>
+            <i className="fas fa-star-half-alt">Loading Port: West Africa</i>
+            <i className="fas fa-star-half-alt">Quantity: 5,000 Metric Tons (MT)</i>
+            <i className="fas fa-star-half-alt">Payment Terms: Cash or Bank Instruments</i>
+            <i className="fas fa-star-half-alt"><b>Specifications:</b></i>
+            <i className="fas fa-star-half-alt">•	Type: Used Rail Scrap (R50 – R65)</i>
+            <i className="fas fa-star-half-alt">•	Standard: R50 (51.67 kg/m) and R65 (64.72 kg/m)</i>
+            <i className="fas fa-star-half-alt">	•	Length: 6–12 meters (or as specified by buyer)</i>
+            <i className="fas fa-star-half-alt">	•	Material Composition:</i>
+            <i className="fas fa-star-half-alt">	•	Carbon (C): 0.54% – 0.82%</i>
+            <i className="fas fa-star-half-alt">	•	Manganese (Mn): 0.60% – 1.05%</i>
+            <i className="fas fa-star-half-alt">•	Silicon (Si): 0.18% – 0.40%</i>
+            <i className="fas fa-star-half-alt">	•	Sulfur (S): Max 0.05%</i>
+            <i className="fas fa-star-half-alt">	•	Phosphorus (P): Max 0.035%</i>
+            <i className="fas fa-star-half-alt">	•	Condition: Free from heavy rust, dust, oil, grease, mud, or any other contaminants</i>
+            <i className="fas fa-star-half-alt"><b>Packaging:</b></i>
+            <i className="fas fa-star-half-alt">•	Loose/bulk in containers or as specified by buyer</i>
+            <i className="fas fa-star-half-alt">•	Loaded in 20-foot or 40-foot containers for secure transport</i>
+            <i className="fas fa-star-half-alt">Delivery Terms: CIF/FOB as per contract</i>
+            <i className="fas fa-star-half-alt">Certifications: Available upon request (e.g., SGS or other third-party inspections)</i>
+            <i className="fas fa-star-half-alt">Other Conditions: As per contract negotiation.</i>
+
+
+           
+           
+          
+           </div>
+          <div className="button">
+            <a href="#" className="cart">add to cart</a>
+          </div>
+        </div>
 
       </div>
 
